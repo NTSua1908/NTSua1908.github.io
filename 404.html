@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script type="text/javascript">
+      var pathname = window.location.pathname;
+      var origin = window.location.origin;
+      window.location.replace(origin + "/" + pathname.substring(1));
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected automatically, follow this <a href="/">link</a>.</p>
+  </body>
+</html>
